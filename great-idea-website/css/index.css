@@ -71,6 +71,17 @@ display: inline-block;
 margin: 3%;
 font-size: 12.5px;
 }
+a:hover{
+	color: blue;
+	border: 1px round blue;
+	transition: 1s;
+}
+#navbar{
+	background-color: palegreen;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
 .logo{
 	display: inline;
 	margin: 0% 0% 5% 0%;
@@ -101,7 +112,7 @@ h1 {
 	margin-top: 10%;
 }
 .circle{
-	margin: 0% 0% 10% 23%;
+	margin: 10% 0% 10% 23%;
 }
 .copyright{
 	text-align: center;
@@ -112,7 +123,9 @@ h1 {
 }
 .whole{
 	margin-left: 3%;
+	margin-top: 30px;
 	font-family: 'IM Fell Great Primer SC', serif;
+	background-color: aliceblue;
 
 }
 hr{
