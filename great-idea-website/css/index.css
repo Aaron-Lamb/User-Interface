@@ -90,7 +90,23 @@ h1 {
 .middle-img{
 	padding-left: 7%;
 }
+.intro{
+	display: inline-block;
+}
 .first{
 	display: inline-block;
 	width: 30%;
+}
+.circle{
+	padding-left: 60%
+}
+.copyright{
+	text-align: center;
+	margin: 10%
+}
+.contact{
+	margin-top: 3%;
+}
+.whole{
+	margin-left: 3%;
 }
