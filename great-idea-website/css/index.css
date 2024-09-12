@@ -64,3 +64,91 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body{
+	background: blue;
+}
+
+
+nav a{
+text-decoration: none;
+color: grey;
+display: inline-block;
+margin: 3%;
+font-size: 12.5px;
+}
+a:hover{
+	color: blue;
+	border: 1px round blue;
+	transition: 1s;
+}
+#navbar{
+	background-color: palegreen;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+.logo{
+	display: inline;
+	margin: 0% 0% 5% 0%;
+}
+h1 {
+	font-size: 70px;
+}
+.GS{
+	border: 1px solid black;
+	display: inline-block;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+	Padding-top: 0.5%;
+	padding-bottom: 0.5%;
+}
+
+.middle-img{
+	padding-left: 4%;
+	margin: 2% 0% 2% 0%;
+}
+.intro{
+	display: inline-block;
+	margin: 0% 5% 1% 0.5%;
+}
+.first{
+	display: inline-block;
+	width: 33%;
+	margin: 7%;
+	
+}
+.second{
+	display: inline-block;
+	width: 22%;
+	margin: 5%;
+	
+}
+.circle{
+	margin: 20% 0% 10% 23%;
+}
+.copyright{
+	text-align: center;
+	margin: 10%
+}
+.contact{
+	margin-top: 3%;
+	margin-left: 2%;
+}
+.whole{
+	font-family: 'IM Fell Great Primer SC', serif;
+	/* background-color: aliceblue; */
+
+}
+hr{
+	display: block;
+	color: black;
+	margin-top: 0.5;
+	margin-bottom: 0.5;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: solid;
+	border-width: 1px;
+}
+address{
+	margin-left: 2%;
+}
